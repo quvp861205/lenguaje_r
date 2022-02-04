@@ -1,0 +1,13 @@
+---
+title: "EconomiaNaranja"
+output: pdf_document
+---
+
+```{r}
+
+orangeec <- read.csv("C:/Users/pquinonezv/Desktop/curso\ r/orangeec.csv")
+data(orangeec)
+summary(orangeec)
+
+```
+
